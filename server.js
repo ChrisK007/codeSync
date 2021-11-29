@@ -4,10 +4,7 @@ const port = 9090;
 // const http = require("http");
 // const https = require("https");
 
-// const fs = require('fs');
-
-
-const app = express();
+// const fs = require('fs')
 
 app.get('/', (req, res) =>{
     res.send('port 9090 running');
